@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ECEEF1;
+}
+
+p {
+    color: #505050;
+}
+
+button {
+    color: white;
+    background-color: #0077C5;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.navigation {
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.nav {
+    float: right;
+    margin: 10px;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 10px;
+}
+
+.nav-item button {
+    padding: 8px 20px;
+}
+
+.infos {
+    text-align: center;
+    margin: 10px;
+}
+
+.infos h1 {
+    margin-bottom: 20px;
+}
+
+.infos a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+}
+
+form {
+    width: 380px;
+    height: 672px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    text-align: center;
+    background-color: white;
+}
+
+input,
+label {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 32px;
+}
+
+input {
+    margin-bottom: 38px;
+}
+
+form h2 {
+    margin: 26px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+form button {
+    padding: 12px 105px;
+    margin-bottom: 40px;
+}
+
+
+.terms {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 13px;
+    font-style: italic;
+}
