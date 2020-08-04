@@ -7,11 +7,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     height: 100vh;
-    width: 100vw;
     background-color: #ECEEF1;
-}
-
-p {
     color: #505050;
 }
 
@@ -50,7 +46,7 @@ a {
 
 .infos {
     text-align: center;
-    margin: 10px;
+    margin: 21px 0;
 }
 
 .infos h1 {
@@ -72,6 +68,10 @@ form {
     background-color: white;
 }
 
+form>* {
+    margin-top: 23px;
+}
+
 input,
 label {
     text-align: left;
@@ -81,12 +81,25 @@ label {
     height: 32px;
 }
 
+label {
+    font-size: 14px;
+}
+
 input {
     margin-bottom: 38px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
 }
 
 form h2 {
-    margin: 26px 0;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+form p {
+    font-size: 14px;
+
 }
 
 ul li {
@@ -98,10 +111,20 @@ form button {
     margin-bottom: 40px;
 }
 
-
 .terms {
     width: 70%;
     margin: 0 auto;
     font-size: 13px;
     font-style: italic;
+}
+
+.privacy {
+    background-color: #ECEEF1;
+    height: 54px;
+}
+
+.privacy p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
 }
